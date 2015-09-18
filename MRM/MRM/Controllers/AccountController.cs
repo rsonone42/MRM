@@ -13,7 +13,7 @@ using MRM.Models;
 namespace MRM.Controllers
 {
     [Authorize]
-    public class AccountController : Controller
+    public class AccountController : Controller 
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
